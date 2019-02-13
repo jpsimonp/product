@@ -1,12 +1,19 @@
-package com.example.product.controller;
+package com.example.rest.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.product.data.Greeting;
+import com.example.rest.data.Greeting;
 
+/**
+ * 
+ * @author jpsimon
+ * 
+ * Greeting controller class is shared in project and product but one less method greetingRemarks on product
+ *
+ */
 @RestController
 public class GreetingController {
 
