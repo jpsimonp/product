@@ -26,4 +26,9 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
+    
+    @GetMapping(value = "/greeting/evolution1", produces = "application/json")
+    public String evolution1() {
+        return "Greeting evolution1";
+    }
 }
