@@ -4,6 +4,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.rest.data.CommonData;
+
 /**
  * 
  * @author jpsimon
@@ -16,8 +18,8 @@ public class ProductController {
 	
 	@GetMapping(value = "/product", produces = "application/json")
 	@ResponseBody
-	public String product() {
-		return "Product";
+	public CommonData product() {
+		return new CommonData("Product");
 	}
 
 }
