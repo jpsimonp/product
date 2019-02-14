@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 
  * @author jpsimon
  * 
+ * PRODUCT
+ * 
  * Application common class is shared in project and product and it is the same in both
  *
  */
