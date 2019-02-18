@@ -57,7 +57,7 @@ public class ProductController {
 	@GetMapping(value = "/product/evolution6", produces = "application/json")
 	@ResponseBody
 	public CommonMatchData evolution6() {
-		return new CommonMatchData("evolution6");
+		return new CommonMatchData("evolution6-2");
 	}
 	
 	/*	@GetMapping(value = "/product/evolution7", produces = "application/json")
