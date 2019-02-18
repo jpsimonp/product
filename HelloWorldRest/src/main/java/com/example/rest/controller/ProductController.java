@@ -42,11 +42,11 @@ public class ProductController {
 		return new CommonMatchData("evolution3");
 	}
 	
-	/*@GetMapping(value = "/product/evolution4", produces = "application/json")
+	@GetMapping(value = "/product/evolution4", produces = "application/json")
 	@ResponseBody
 	public CommonMatchData evolution4() {
 		return new CommonMatchData("evolution4");
-	}*/
+	}
 	
 	@GetMapping(value = "/product/evolution5", produces = "application/json")
 	@ResponseBody
@@ -54,7 +54,7 @@ public class ProductController {
 		return new CommonMatchData("evolution5");
 	}
 	
-	@GetMapping(value = "/product/evolution6", produces = "application/json")
+/*	@GetMapping(value = "/product/evolution6", produces = "application/json")
 	@ResponseBody
 	public CommonMatchData evolution6() {
 		return new CommonMatchData("evolution6");
@@ -64,5 +64,5 @@ public class ProductController {
 	@ResponseBody
 	public CommonMatchData evolution7() {
 		return new CommonMatchData("evolution7");
-	}
+	}*/
 }
