@@ -71,4 +71,10 @@ public class ProductController {
 	public CommonMatchData evolution8() {
 		return new CommonMatchData("evolution8-2");
 	}
+	
+	@GetMapping(value = "/product/evolution9", produces = "application/json")
+	@ResponseBody
+	public CommonMatchData evolution9() {
+		return new CommonMatchData("evolution9-3");
+	}
 }
