@@ -69,6 +69,6 @@ public class ProductController {
 	@GetMapping(value = "/product/evolution8", produces = "application/json")
 	@ResponseBody
 	public CommonMatchData evolution8() {
-		return new CommonMatchData("evolution8");
+		return new CommonMatchData("evolution8-2");
 	}
 }
