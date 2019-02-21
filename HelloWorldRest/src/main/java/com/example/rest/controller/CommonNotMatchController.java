@@ -28,14 +28,4 @@ public class CommonNotMatchController {
         return new CommonNotMatchData(counter.incrementAndGet(),
                             String.format(template, name));
     }
-    
-    @GetMapping(value = "/greeting/evolution1-product", produces = "application/json")
-    public String evolution1() {
-        return "Greeting evolution1 product";
-    }
-    
-    @GetMapping(value = "/greeting/evolution2-product", produces = "application/json")
-    public String evolution2() {
-        return "Greeting evolution2 product";
-    }
 }
