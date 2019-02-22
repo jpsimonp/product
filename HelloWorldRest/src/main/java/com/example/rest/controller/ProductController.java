@@ -24,63 +24,10 @@ public class ProductController {
 		return new CommonMatchData();
 	}
 	
-	@GetMapping(value = "/evolution01", produces = "application/json")
+	@GetMapping(value = "/evolution01development", produces = "application/json")
 	@ResponseBody
-	public CommonMatchData evolution01() {
+	public CommonMatchData evolution01development() {
 		return new CommonMatchData();
 	}
-	
-	@GetMapping(value = "/evolution02", produces = "application/json")
-	@ResponseBody
-	public CommonMatchData evolution02() {
-		return new CommonMatchData();
-	}
-	
-	@GetMapping(value = "/evolution03", produces = "application/json")
-	@ResponseBody
-	public CommonMatchData evolution03() {
-		return new CommonMatchData();
-	}
-	
-	@GetMapping(value = "/evolution0101", produces = "application/json")
-	@ResponseBody
-	public CommonMatchData evolution0101() {
-		return new CommonMatchData();
-	}
-	
-	@GetMapping(value = "/evolution0102", produces = "application/json")
-	@ResponseBody
-	public CommonMatchData evolution0102() {
-		return new CommonMatchData();
-	}
-	
-	@GetMapping(value = "/evolution0103", produces = "application/json")
-	@ResponseBody
-	public CommonMatchData evolution0103() {
-		return new CommonMatchData();
-	}
-	
-	@GetMapping(value = "/evolutionrelease02", produces = "application/json")
-	@ResponseBody
-	public CommonMatchData evolutionrelease02() {
-		return new CommonMatchData();
-	}
-	
-	@GetMapping(value = "/evolutionrelease021", produces = "application/json")
-	@ResponseBody
-	public CommonMatchData evolutionrelease021() {
-		return new CommonMatchData();
-	}
-	
-	@GetMapping(value = "/evolutionrelease022", produces = "application/json")
-	@ResponseBody
-	public CommonMatchData evolutionrelease022() {
-		return new CommonMatchData();
-	}
-	
-	@GetMapping(value = "/evolutionrelease023", produces = "application/json")
-	@ResponseBody
-	public CommonMatchData evolutionrelease023() {
-		return new CommonMatchData();
-	}
+
 }
