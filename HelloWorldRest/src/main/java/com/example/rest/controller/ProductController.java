@@ -35,4 +35,10 @@ public class ProductController {
 	public CommonMatchData evolution02release03() {
 		return new CommonMatchData();
 	}
+	
+	@GetMapping(value = "/evolution03release03", produces = "application/json")
+	@ResponseBody
+	public CommonMatchData evolution03release03() {
+		return new CommonMatchData();
+	}
 }
