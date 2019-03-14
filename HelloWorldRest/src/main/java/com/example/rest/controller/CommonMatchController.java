@@ -19,6 +19,6 @@ public class CommonMatchController {
 	@GetMapping(value = "/general", produces = "application/json")
 	@ResponseBody
 	public String general() {
-		return "General";
+		return "General_cambio1_cambio2_cambio3_";
 	}
 }
