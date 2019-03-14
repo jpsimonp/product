@@ -20,6 +20,5 @@ public class ApplicationTests {
 	public void contextLoads() {
 	}
 	
-	/*cambio 1 feature01*/
 }
 
